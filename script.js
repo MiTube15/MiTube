@@ -1,4 +1,4 @@
-const API_URL = "https://api.adultdatalink.com/pornhub/search/";
+const API_URL = "http://api.adultdatalink.com/pornhub/search/";
 let currentPage = 1;
 let currentQuery = "all";
 let currentCategory = "";
