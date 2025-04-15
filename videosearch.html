@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MiTube - Video Populares</title>
+  <link rel="stylesheet" href="style.css" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4801647812585318"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- Barra de navegación (Navbar) -->
+  <nav class="navbar">
+    <div class="navbar-content">
+      <h1>MiTube</h1>
+
+      <!-- Enlaces de navegación -->
+      <ul class="nav-links">
+        <li><a href="videosearch.html">Inicio</a></li>
+        <li><a href="index.html">Buscador</a></li>
+        <li><a href="categorias.html">Categorías</a></li>
+      </ul>
+
+      <!-- Barra de búsqueda -->
+      <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Search videos..." />
+        <button id="searchBtn">Search</button>
+      </div>
+
+      <!-- Filtros -->
+      <div class="filter-bar">
+        <label for="categoryFilter">Categoría:</label>
+        <select id="categoryFilter">
+          <option value="">Todas</option>
+          <option value="amateur">Amateur</option>
+          <option value="anal">Anal</option>
+          <option value="lesbian">Lesbian</option>
+          <option value="milf">MILF</option>
+          <option value="teen">Teen</option>
+        </select>
+
+        <label for="tagFilter">Tags:</label>
+        <select id="tagFilter">
+          <option value="">Todos</option>
+          <option value="blonde">Blonde</option>
+          <option value="brunette">Brunette</option>
+          <option value="orgy">Orgy</option>
+          <option value="threesome">Threesome</option>
+          <option value="cumshot">Cumshot</option>
+        </select>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contenedor de videos -->
+  <div id="videoList" class="video-list"></div>
+
+  <!-- Paginación -->
+  <div class="pagination">
+    <button id="prevBtn">Previous</button>
+    <span id="pageIndicator">Page 1</span>
+    <button id="nextBtn">Next</button>
+  </div>
+
+  <!-- Modal -->
+  <div id="videoModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2 id="modalTitle"></h2>
+      <iframe id="videoFrame" src="" frameborder="0" allowfullscreen></iframe>
+      <p id="videoDetails"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
