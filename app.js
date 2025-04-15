@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const API_URL = "https://api.adultdatalink.com/eporner/search";
+    const API_URL = "http://api.adultdatalink.com/eporner/search";
     const params = {
       query: "porn", // Palabra clave inicial de búsqueda
       per_page: 12,  // Videos por página
